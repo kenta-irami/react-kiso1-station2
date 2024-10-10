@@ -1,0 +1,29 @@
+.Main {
+  background-color: lightgray;
+  height: 100vh;
+}
+.ThreadsHeader {
+  height: 100px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: lightseagreen;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.NewThreads {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.NewThreadList {
+  display: flex;
+  flex-flow: column;
+  background-color: #ffffff;
+  outline: auto;
+  list-style: none;
+  padding: 12px;
+  margin: 8px;
+}
